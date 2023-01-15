@@ -21,13 +21,13 @@
               "Type": 0
             },
             {
-              "Name": "s11",
-              "Entity": "SB_Gender Sensor",
+              "Name": "d",
+              "Entity": "Date",
               "Type": 0
             },
             {
-              "Name": "d",
-              "Entity": "Date",
+              "Name": "s11",
+              "Entity": "SB_Gender Sensor",
               "Type": 0
             }
           ],
@@ -88,6 +88,28 @@
                           "Value": "null"
                         }
                       }
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "Condition": {
+                "Comparison": {
+                  "ComparisonKind": 2,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "d"
+                        }
+                      },
+                      "Property": "Date"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "datetime'2022-12-05T00:00:00'"
                     }
                   }
                 }
