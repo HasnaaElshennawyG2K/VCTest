@@ -1,0 +1,14 @@
+{
+  "name": "Store",
+  "dataType": "string",
+  "isNullable": false,
+  "sourceColumn": "Store",
+  "sourceProviderType": "varchar(8)",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

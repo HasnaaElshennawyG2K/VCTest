@@ -1,0 +1,85 @@
+{
+  "filters": {
+    "byExpr": [
+      {
+        "name": "Filter28f1d56c84f9d176e056",
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Camera"
+              }
+            },
+            "Property": "Value"
+          }
+        },
+        "howCreated": 1
+      },
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Sensor"
+              }
+            },
+            "Property": "Gender"
+          }
+        },
+        "howCreated": 0
+      },
+      {
+        "type": "Advanced",
+        "expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "XOVIS_Objects"
+              }
+            },
+            "Property": "Count"
+          }
+        },
+        "howCreated": 0
+      }
+    ]
+  },
+  "singleVisual": {
+    "visualType": "pieChart",
+    "objects": {},
+    "orderBy": [
+      {
+        "Direction": 2,
+        "Expression": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SAFR_Objects"
+              }
+            },
+            "Property": "safrObjCount"
+          }
+        }
+      }
+    ],
+    "activeProjections": {
+      "Category": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Sensor"
+              }
+            },
+            "Property": "Gender"
+          }
+        }
+      ]
+    },
+    "display": {
+      "mode": "hidden"
+    }
+  }
+}

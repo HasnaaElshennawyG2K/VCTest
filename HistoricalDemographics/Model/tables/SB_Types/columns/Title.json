@@ -1,0 +1,14 @@
+{
+  "name": "Title",
+  "dataType": "string",
+  "isNullable": false,
+  "sourceColumn": "Title",
+  "sourceProviderType": "nvarchar(300)",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

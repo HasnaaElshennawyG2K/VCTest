@@ -1,0 +1,61 @@
+{
+  "filters": {
+    "byExpr": [
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Sensor"
+              }
+            },
+            "Property": "Value"
+          }
+        },
+        "howCreated": 0
+      }
+    ]
+  },
+  "singleVisual": {
+    "visualType": "pieChart",
+    "objects": {},
+    "orderBy": [
+      {
+        "Direction": 2,
+        "Expression": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "All o"
+                  }
+                },
+                "Property": "Object_id"
+              }
+            },
+            "Function": 5
+          }
+        }
+      }
+    ],
+    "activeProjections": {
+      "Category": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Sensor"
+              }
+            },
+            "Property": "Value"
+          }
+        }
+      ]
+    },
+    "display": {
+      "mode": "hidden"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Object_id",
+  "dataType": "string",
+  "sourceColumn": "Object_id",
+  "sourceProviderType": "nvarchar(4000)",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Hour",
+  "dataType": "int64",
+  "isNullable": false,
+  "sourceColumn": "Hour",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

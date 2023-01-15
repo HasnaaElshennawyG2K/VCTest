@@ -1,0 +1,25 @@
+{
+  "name": "MaxOccDate",
+  "dataType": "dateTime",
+  "sourceColumn": "MaxOccDate",
+  "formatString": "General Date",
+  "sourceProviderType": "datetime",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "b26b9e15-3e6a-4382-9973-060edb1524a3",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_8898e874-3d35-42e7-bf66-75b573235119",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

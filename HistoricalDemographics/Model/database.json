@@ -1,0 +1,88 @@
+{
+  "name": "e1778f04-fe01-453b-82e7-080a3ee4e86d",
+  "compatibilityLevel": 1550,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "relationships": [
+      {
+        "name": "1518024d-adb5-4956-a85f-4be7dacd640f",
+        "fromTable": "SAFR_Objects",
+        "fromColumn": "genderSoftBiometricsValueID",
+        "toTable": "SB_Gender Camera",
+        "toColumn": "SoftBiometricsValueID"
+      },
+      {
+        "name": "ca1a7c9e-a7c9-433f-b387-20513e44c39b",
+        "fromTable": "XOVIS_Objects",
+        "fromColumn": "genderSoftBiometricsValueID",
+        "toTable": "SB_Gender Sensor",
+        "toColumn": "SoftBiometricsValueID"
+      },
+      {
+        "name": "6113678c-0386-4c96-8854-26d6521c936e",
+        "fromTable": "SAFR_Objects",
+        "fromColumn": "AgeGroupID",
+        "toTable": "AgeGroups",
+        "toColumn": "AgeGroupID"
+      },
+      {
+        "name": "fbc24548-b26f-4afc-8213-c7cf7bcc009a",
+        "fromTable": "SAFR_Objects",
+        "fromColumn": "DateVal",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "768a2950-e55c-433c-bff1-ccefae5cd715",
+        "fromTable": "XOVIS_Objects",
+        "fromColumn": "DateVal",
+        "toTable": "Date",
+        "toColumn": "Date"
+      },
+      {
+        "name": "1e457ee4-8e0a-4da2-bc01-436fd69b6161",
+        "fromTable": "SAFR_Objects",
+        "fromColumn": "MaxOccDate",
+        "toTable": "LocalDateTable_f4319473-20be-4bb9-a924-a22b125a5194",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "b26b9e15-3e6a-4382-9973-060edb1524a3",
+        "fromTable": "XOVIS_Objects",
+        "fromColumn": "MaxOccDate",
+        "toTable": "LocalDateTable_8898e874-3d35-42e7-bf66-75b573235119",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      },
+      {
+        "name": "591d0a35-8bdd-4d5f-9a27-60d63cd59d04",
+        "fromTable": "Date",
+        "fromColumn": "Date",
+        "toTable": "LocalDateTable_b79c11a1-d5c5-4cfa-9ea7-afd6f51964a7",
+        "toColumn": "Date",
+        "joinOnDateBehavior": "datePartOnly"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.109.1021.0 (22.09)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"AgeGroups\",\"SB_Types\",\"SB_Gender Sensor\",\"SB_Age\",\"SB_Gender Camera\",\"Stores\",\"DimTime\",\"SAFR_Objects\",\"XOVIS_Objects\",\"Date\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      }
+    ]
+  }
+}

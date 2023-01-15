@@ -1,0 +1,18 @@
+{
+  "name": "AgeGroups",
+  "partitions": [
+    {
+      "name": "AgeGroups-f80ae2fe-345f-45a5-af9a-af4d729085a5",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

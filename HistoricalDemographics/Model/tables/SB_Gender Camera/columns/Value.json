@@ -1,0 +1,13 @@
+{
+  "name": "Value",
+  "dataType": "string",
+  "sourceColumn": "Value",
+  "sourceProviderType": "nvarchar(300)",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

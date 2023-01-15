@@ -1,0 +1,15 @@
+{
+  "name": "genderSoftBiometricsValueID",
+  "dataType": "int64",
+  "isNullable": false,
+  "sourceColumn": "genderSoftBiometricsValueID",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

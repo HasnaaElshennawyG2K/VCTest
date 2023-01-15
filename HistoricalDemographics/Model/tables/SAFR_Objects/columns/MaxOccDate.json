@@ -1,0 +1,37 @@
+{
+  "name": "MaxOccDate",
+  "dataType": "dateTime",
+  "sourceColumn": "MaxOccDate",
+  "formatString": "dd/mm/yyyy",
+  "sourceProviderType": "datetime",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "1e457ee4-8e0a-4da2-bc01-436fd69b6161",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_f4319473-20be-4bb9-a924-a22b125a5194",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"DataType\"]"
+    }
+  ]
+}

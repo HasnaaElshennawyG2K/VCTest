@@ -1,0 +1,31 @@
+
+IF (
+    VALUE ( 'SAFR_Objects'[SafrAge] ) < 18,
+    1,
+    IF (
+        VALUE ( 'SAFR_Objects'[SafrAge] ) > 17
+            && VALUE ( 'SAFR_Objects'[SafrAge] ) < 25,
+        2,
+        IF (
+            VALUE ( 'SAFR_Objects'[SafrAge] ) > 24
+                && VALUE ( 'SAFR_Objects'[SafrAge] ) < 35,
+            3,
+            IF (
+                VALUE ( 'SAFR_Objects'[SafrAge] ) >= 35
+                    && VALUE ( 'SAFR_Objects'[SafrAge] ) < 45,
+                4,
+                IF (
+                    VALUE ( 'SAFR_Objects'[SafrAge] ) >= 45
+                        && VALUE ( 'SAFR_Objects'[SafrAge] ) < 55,
+                    5,
+                    IF (
+                        VALUE ( 'SAFR_Objects'[SafrAge] ) >= 55
+                            && VALUE ( 'SAFR_Objects'[SafrAge] ) < 65,
+                        6,
+                        7
+                    )
+                )
+            )
+        )
+    )
+)

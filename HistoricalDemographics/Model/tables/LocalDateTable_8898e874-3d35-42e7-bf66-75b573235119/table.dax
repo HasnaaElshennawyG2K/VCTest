@@ -1,0 +1,1 @@
+Calendar(Date(Year(MIN('XOVIS_Objects'[MaxOccDate])), 1, 1), Date(Year(MAX('XOVIS_Objects'[MaxOccDate])), 12, 31))

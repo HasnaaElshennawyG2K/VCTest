@@ -1,0 +1,15 @@
+{
+  "name": "SoftBiometricsTypeID",
+  "dataType": "int64",
+  "isNullable": false,
+  "sourceColumn": "SoftBiometricsTypeID",
+  "formatString": "0",
+  "sourceProviderType": "int",
+  "summarizeBy": "count",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
