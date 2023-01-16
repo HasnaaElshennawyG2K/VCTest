@@ -1,0 +1,120 @@
+[
+  {
+    "name": "Filtere8f626f98488dde605dc",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "AgeGroups"
+          }
+        },
+        "Property": "AgeGroup"
+      }
+    },
+    "filter": {
+      "Version": 2,
+      "From": [
+        {
+          "Name": "a1",
+          "Entity": "AgeGroups",
+          "Type": 0
+        }
+      ],
+      "Where": [
+        {
+          "Condition": {
+            "Not": {
+              "Expression": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Source": "a1"
+                        }
+                      },
+                      "Property": "AgeGroup"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "null"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  },
+  {
+    "name": "Filter659f2349d35401107b31",
+    "expression": {
+      "Measure": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "SAFR_Objects"
+          }
+        },
+        "Property": "Person Count"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  },
+  {
+    "name": "Filterffa26a073d468ee0c84e",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Date"
+          }
+        },
+        "Property": "Year"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  },
+  {
+    "name": "Filtera1b207e05a39f1d5ea38",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Date"
+          }
+        },
+        "Property": "Month"
+      }
+    },
+    "type": "Advanced",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  },
+  {
+    "name": "Filter09895014fca67524081a",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Date"
+          }
+        },
+        "Property": "Date"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  }
+]

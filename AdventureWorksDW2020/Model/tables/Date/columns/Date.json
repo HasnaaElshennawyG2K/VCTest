@@ -1,0 +1,37 @@
+{
+  "name": "Date",
+  "dataType": "dateTime",
+  "sourceColumn": "Date",
+  "formatString": "dd/mm/yyyy",
+  "sourceProviderType": "datetime",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "591d0a35-8bdd-4d5f-9a27-60d63cd59d04",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_b79c11a1-d5c5-4cfa-9ea7-afd6f51964a7",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    },
+    {
+      "name": "PBI_ChangedProperties",
+      "value": "[\"DataType\"]"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "objects": {
+    "legend": [
+      {
+        "properties": {
+          "position": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          },
+          "labelColor": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#00304A'"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "labels": [
+      {
+        "properties": {
+          "labelStyle": {
+            "expr": {
+              "Literal": {
+                "Value": "'Category, percent of total'"
+              }
+            }
+          }
+        }
+      },
+      {
+        "properties": {
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#00304A'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "dataViewWildcard": {
+                "matchingOption": 1
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "dataPoint": [
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#FBE1C2'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "SB_Gender Camera"
+                        }
+                      },
+                      "Property": "Gender"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'Female'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#87ABCA'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "SB_Gender Camera"
+                        }
+                      },
+                      "Property": "Gender"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'Male'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#839186'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "data": [
+            {
+              "scopeId": {
+                "Comparison": {
+                  "ComparisonKind": 0,
+                  "Left": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "SB_Gender Camera"
+                        }
+                      },
+                      "Property": "Gender"
+                    }
+                  },
+                  "Right": {
+                    "Literal": {
+                      "Value": "'Unknown'"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#00304A'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Today Visitors over Time.Total Sensor"
+        }
+      },
+      {
+        "properties": {
+          "fill": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#1F474B'"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "selector": {
+          "metadata": "Sum(Occupancy over Time.Occupancy)"
+        }
+      }
+    ]
+  },
+  "projectionOrdering": {
+    "Category": [
+      0
+    ],
+    "Y": [
+      1
+    ]
+  },
+  "projectionActiveItems": {
+    "Category": [
+      {
+        "queryRef": "SB_Gender Camera.Gender",
+        "suppressConcat": false
+      }
+    ]
+  },
+  "queryMetadata": {
+    "Select": [
+      {
+        "Restatement": "Gender",
+        "Name": "SB_Gender Camera.Gender",
+        "Type": 2048
+      },
+      {
+        "Restatement": "Person Count",
+        "Name": "SAFR_Objects.safrObjCount",
+        "Type": 3,
+        "Format": "0"
+      }
+    ],
+    "Filters": [
+      {
+        "type": 0,
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Sensor"
+              }
+            },
+            "Property": "Gender"
+          }
+        }
+      }
+    ]
+  },
+  "visualElements": [
+    {
+      "DataRoles": [
+        {
+          "Name": "Category",
+          "Projection": 0,
+          "isActive": true
+        },
+        {
+          "Name": "Y",
+          "Projection": 1,
+          "isActive": false
+        }
+      ]
+    }
+  ],
+  "selects": [
+    {
+      "displayName": "Gender",
+      "queryName": "SB_Gender Camera.Gender",
+      "roles": {
+        "Category": true
+      },
+      "type": {
+        "category": null,
+        "underlyingType": 1
+      },
+      "expr": {
+        "Column": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SB_Gender Camera"
+            }
+          },
+          "Property": "Gender"
+        }
+      }
+    },
+    {
+      "displayName": "Person Count",
+      "format": "0",
+      "queryName": "SAFR_Objects.safrObjCount",
+      "roles": {
+        "Y": true
+      },
+      "sort": 2,
+      "sortOrder": 0,
+      "type": {
+        "category": null,
+        "underlyingType": 260
+      },
+      "expr": {
+        "Measure": {
+          "Expression": {
+            "SourceRef": {
+              "Entity": "SAFR_Objects"
+            }
+          },
+          "Property": "Person Count"
+        }
+      }
+    }
+  ]
+}

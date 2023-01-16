@@ -1,0 +1,56 @@
+{
+  "filters": {
+    "byExpr": [
+      {
+        "type": "Categorical",
+        "expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "SB_Gender Sensor"
+              }
+            },
+            "Property": "Value"
+          }
+        },
+        "howCreated": 0
+      }
+    ]
+  },
+  "singleVisual": {
+    "visualType": "clusteredColumnChart",
+    "objects": {},
+    "orderBy": [
+      {
+        "Direction": 1,
+        "Expression": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "All o"
+              }
+            },
+            "Property": "Hour as text"
+          }
+        }
+      }
+    ],
+    "activeProjections": {
+      "Category": [
+        {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "All"
+              }
+            },
+            "Property": "Year"
+          }
+        }
+      ]
+    },
+    "display": {
+      "mode": "hidden"
+    }
+  }
+}

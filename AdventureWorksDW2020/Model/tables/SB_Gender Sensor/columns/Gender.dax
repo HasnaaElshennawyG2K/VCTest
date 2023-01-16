@@ -1,0 +1,6 @@
+
+IF(
+    'SB_Gender Sensor'[Value] = "None",
+    "Unknown",
+    'SB_Gender Sensor'[Value]
+)

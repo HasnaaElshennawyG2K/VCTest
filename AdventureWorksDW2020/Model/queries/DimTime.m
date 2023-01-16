@@ -1,0 +1,4 @@
+let
+    Source = Sql.Database(".", "statistics", [Query="select 0 as [Hour]#(lf)union all select 1#(lf)union all select 2#(lf)union all select 3#(lf)union all select 4#(lf)union all select 5#(lf)union all select 6#(lf)union all select 7#(lf)union all select 8#(lf)union all select 9#(lf)union all select 10#(lf)union all select 11#(lf)union all select 12#(lf)union all select 13#(lf)union all select 14#(lf)union all select 15#(lf)union all select 16#(lf)union all select 17#(lf)union all select 18#(lf)union all select 19#(lf)union all select 20#(lf)union all select 21#(lf)union all select 22#(lf)union all select 23#(lf)"])
+in
+    Source

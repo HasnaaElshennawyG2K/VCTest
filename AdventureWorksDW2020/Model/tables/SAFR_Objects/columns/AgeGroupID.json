@@ -1,0 +1,14 @@
+{
+  "type": "calculated",
+  "name": "AgeGroupID",
+  "dataType": "int64",
+  "isDataTypeInferred": true,
+  "formatString": "0",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

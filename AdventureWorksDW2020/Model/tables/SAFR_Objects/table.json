@@ -1,0 +1,18 @@
+{
+  "name": "SAFR_Objects",
+  "partitions": [
+    {
+      "name": "SAFR_Objects-4a28337e-a960-4cfc-9d01-0f57b98f2d1d",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

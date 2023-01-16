@@ -1,0 +1,6 @@
+
+IF(
+    'SB_Gender Camera'[Value] = "None",
+    "Unknown",
+    'SB_Gender Camera'[Value]
+)

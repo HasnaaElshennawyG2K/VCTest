@@ -1,0 +1,13 @@
+{
+  "name": "SafrAge",
+  "dataType": "string",
+  "sourceColumn": "SafrAge",
+  "sourceProviderType": "nvarchar(500)",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

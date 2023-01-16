@@ -1,0 +1,18 @@
+{
+  "name": "Stores",
+  "partitions": [
+    {
+      "name": "Stores-2c563cf8-c78c-41c9-ae2f-67a51001b163",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

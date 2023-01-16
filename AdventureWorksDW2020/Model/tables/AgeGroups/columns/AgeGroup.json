@@ -1,0 +1,15 @@
+{
+  "name": "AgeGroup",
+  "dataType": "string",
+  "isNullable": false,
+  "sourceColumn": "AgeGroup",
+  "sortByColumn": "AgeGroupID",
+  "sourceProviderType": "varchar(7)",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

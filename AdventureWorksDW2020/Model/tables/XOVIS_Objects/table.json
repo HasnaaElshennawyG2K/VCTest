@@ -1,0 +1,18 @@
+{
+  "name": "XOVIS_Objects",
+  "partitions": [
+    {
+      "name": "XOVIS_Objects-25060b4a-7f48-40fc-a60e-4fb8b02ab16b",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Exception"
+    }
+  ]
+}

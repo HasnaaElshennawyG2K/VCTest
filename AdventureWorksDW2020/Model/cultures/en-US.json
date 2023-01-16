@@ -1,0 +1,262 @@
+{
+  "name": "en-US",
+  "linguisticMetadata": {
+    "content": {
+      "Version": "2.0.0",
+      "Language": "en-US",
+      "DynamicImprovement": "HighConfidence",
+      "Entities": {
+        "age_group.agegroup": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Age Group",
+              "ConceptualProperty": "AgeGroup"
+            }
+          },
+          "State": "Generated"
+        },
+        "time_ranges.timerange": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Time Ranges",
+              "ConceptualProperty": "TimeRange"
+            }
+          },
+          "State": "Generated"
+        },
+        "visitors.datein": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Visitors",
+              "ConceptualProperty": "DateIn"
+            }
+          },
+          "State": "Generated"
+        },
+        "visitors.hourin": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Visitors",
+              "ConceptualProperty": "HourIn"
+            }
+          },
+          "State": "Generated"
+        },
+        "customer_insights.additionalinfo": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Customer Insights",
+              "ConceptualProperty": "additionalinfo"
+            }
+          },
+          "State": "Generated"
+        },
+        "customer_insights.visitors_count": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Customer Insights",
+              "ConceptualProperty": "Visitors Count"
+            }
+          },
+          "State": "Generated"
+        },
+        "customer_insights.hour_as_text": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Customer Insights",
+              "ConceptualProperty": "Hour as text"
+            }
+          },
+          "State": "Generated"
+        },
+        "agegroups.agegroup": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "AgeGroups",
+              "ConceptualProperty": "AgeGroup"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Age Group": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "sb_gender.value": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "SB_Gender Sensor",
+              "ConceptualProperty": "Value"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Gender": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "sb_gender_safr.value": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "SB_Gender Camera",
+              "ConceptualProperty": "Value"
+            }
+          },
+          "State": "Generated"
+        },
+        "sb_gender.valueedited": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "SB_Gender Sensor",
+              "ConceptualProperty": "Gender"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Gender": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "stores.store": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Stores",
+              "ConceptualProperty": "Store"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Select store": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "sb_age.value": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "SB_Age",
+              "ConceptualProperty": "Value"
+            }
+          },
+          "State": "Generated"
+        },
+        "all.month_name": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "All",
+              "ConceptualProperty": "Month Name"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Month": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "all.day_name": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "All",
+              "ConceptualProperty": "Day Name"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Day": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "safr_objects.safrobjcount": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "SAFR_Objects",
+              "ConceptualProperty": "Person Count"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Count": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        },
+        "today_all.hour_as_text": {
+          "Definition": {
+            "Binding": {
+              "ConceptualEntity": "Today All",
+              "ConceptualProperty": "Hour as text"
+            }
+          },
+          "State": "Generated",
+          "Terms": [
+            {
+              "Hour": {
+                "State": "Suggested",
+                "Source": {
+                  "Type": "External",
+                  "Agent": "PowerBI.VisualColumnRename"
+                },
+                "Weight": 0.9
+              }
+            }
+          ]
+        }
+      }
+    },
+    "contentType": "json"
+  }
+}

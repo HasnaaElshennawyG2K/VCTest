@@ -1,0 +1,18 @@
+{
+  "name": "SB_Gender Camera",
+  "partitions": [
+    {
+      "name": "SB_Gender Camera-04052468-6133-4549-9789-55dc33d99907",
+      "mode": "import",
+      "source": {
+        "type": "m"
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

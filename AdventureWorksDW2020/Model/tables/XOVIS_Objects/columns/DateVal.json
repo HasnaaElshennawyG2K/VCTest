@@ -1,0 +1,22 @@
+{
+  "type": "calculated",
+  "name": "DateVal",
+  "dataType": "dateTime",
+  "isDataTypeInferred": true,
+  "formatString": "dd/mm/yyyy",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDateTimeCustom\":true}"
+    }
+  ]
+}

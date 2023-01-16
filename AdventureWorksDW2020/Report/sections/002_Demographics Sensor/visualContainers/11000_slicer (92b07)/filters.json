@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Filter6c9d04a7a59d48050a06",
+    "expression": {
+      "Column": {
+        "Expression": {
+          "SourceRef": {
+            "Entity": "Stores"
+          }
+        },
+        "Property": "Store"
+      }
+    },
+    "type": "Categorical",
+    "howCreated": 0,
+    "isHiddenInViewMode": true
+  }
+]
